@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Go Huskies</title>
+
+    <link rel="icon" href="favicon.ico" />
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" type="text/css" />
+
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <img class="uw-logo" src="img/logo.png" alt="uw icon">
+
+    <div id="slides">
+        <div id="img-ewu" class="background-img">
+            <span class="heading-font">UW vs. EWU</span>
+        </div>
+        <div id="img-hawaii" class="background-img">
+            <span class="heading-font">UW vs. Hawaii</span>
+        </div>
+        <div id="img-byu" class="background-img">
+            <span class="heading-font">UW vs. BYU</span>
+        </div>
+        <div id="img-usc" class="background-img">
+            <span class="heading-font">UW vs. USC</span>
+        </div>
+    </div>
+
+    <!-- Left and right arrows -->
+    <a id="left" class="arrow"><i class="arrow fa fa-chevron-left" aria-hidden="true"></i></a>
+    <a id="right" class="arrow"><i class="arrow fa fa-chevron-right" aria-hidden="true"></i></a>
+
+    <!-- Dots -->
+    <div class="dots">
+        <a class="dot-font active" onclick="dotClick(0)"><i class="dot fa fa-circle" aria-hidden="true"></i></a> 
+        <a class="dot-font" onclick="dotClick(1)"><i class="dot fa fa-circle" aria-hidden="true"></i></a>        
+        <a class="dot-font" onclick="dotClick(2)"><i class="dot fa fa-circle" aria-hidden="true"></i></a>        
+        <a class="dot-font" onclick="dotClick(3)"><i class="dot fa fa-circle" aria-hidden="true"></i></a>        
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

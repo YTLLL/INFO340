@@ -1,0 +1,9 @@
+.font-setting {
+    font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.img-width {
+    max-width: 400px;
+}

@@ -1,0 +1,112 @@
+html, body, #slides, .background-img {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.heading-font {
+    font-family: "Roboto Slab";
+    font-weight: 900;
+    font-size: 60px;
+    color: white;
+    right: 10px;
+    bottom: 50px;
+    position: absolute;
+}
+
+.uw-logo {
+    position: fixed;
+    z-index: 5;
+}
+
+#slides {
+    width: 400%;
+    position: relative;
+    left: 0%;
+    z-index: 0;
+    transition: all 1s;
+}
+
+.background-img {
+    position: relative;
+    width: 25%;
+    background-position: center top;
+    background-size: cover;
+    float: left;
+    z-index: 0;
+}
+
+#img-ewu {
+    background-image: url(../img/ewu.jpg);
+}
+
+#img-hawaii {
+    background-image: url(../img/hawaii.jpg);
+}
+
+#img-byu {
+    background-image: url(../img/byu.jpg);
+}
+
+#img-usc {
+    background-image: url(../img/usc.jpg);
+}
+
+.arrow {
+    position: fixed;
+    top: 50%;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    opacity: 0.5;
+    z-index: 5;
+}
+
+.arrow:hover {
+    opacity: 1;
+}
+
+#left {
+    left: 20px;
+}
+
+#right {
+    right: 45px;
+    
+}
+
+.dots {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    bottom: 5%;
+    font-size: 20px;
+    padding: 3px;
+}
+
+.dot-font {
+    display: inline-block;
+    color: white;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.active, .dot-font:hover {
+    opacity: 1;
+}
+
+@media (max-width: 768px) {
+    .heading-font {
+        font-size: 24px;
+        right: 20px;
+        bottom: 45px;
+    }
+
+    .uw-logo {
+        height: 75px;
+    }
+
+    .dot-font {
+        font-size: 16px;
+    }
+}

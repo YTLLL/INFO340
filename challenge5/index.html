@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>React Weather</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <header>
+        <h1 class="head-title"><span class="badge badge-primary">React Weather</span></h1>
+        <button id="getLocation">Your Location</button>
+    </header>
+    <div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 pad-right">
+                    <form id="search-box">
+                        <input type="text" id="search-input" placeholder="e.g. Seattle, 98115"/>
+                        <button type="submit" class="search-button btn btn-primary">Search</button>
+                    </form>
+                    <div id="weather-data" class="hidden">
+                        <h2 id="city"></h2>
+                        <div class="block">
+                            <img id="weather-icon" src="" alt="icon">
+                            <h2 id="degree"></h2> 
+                            <h6 id="description"></h6>
+                        </div>
+                        <button id="save-data" class="btn btn-light">Save</button>
+                    </div>
+                    <span id="invalid" class="hidden">Invalid location.</span>
+                </div>
+                <div class="col-12 col-sm-6 pad-left">
+                    <div class="city-query hidden" id="box-title">
+                        <div id="list-title">My Locations</div>
+                        <ul id="city-list"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>

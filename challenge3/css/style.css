@@ -1,0 +1,253 @@
+body {
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+p {
+    line-height: 1.43;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.heading-font {
+    font-family: Raleway, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+header {
+    height: 350px;
+    background-image: url("../img/header.jpg");
+    background-size: cover;
+    background-position: center bottom;
+}
+
+header .container {
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.button {
+    background-color: #814236;
+    border: 1px solid #391D18;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.header-button a {
+    color: white;
+}
+ 
+.shop-cart {
+    display: none;
+}
+
+.feature-background {
+    background-color: #F8F8F8;
+}
+
+.feature-content {
+    background-color: white;
+    border: 1px solid #DFDFDF;
+    border-radius: 3px;
+    max-width: 600px;
+    margin: 15px;
+}
+
+.feature-details {
+    min-height: 330px;
+    text-align: center;
+    padding: 15px;
+}
+
+.feature-details svg {
+    fill: #814236;
+    height: 65px;
+    align-self: center;
+}
+
+.uses-full-background {
+    background-color: #EBEBEB;
+}
+
+.uses-background {
+    background-size: cover;
+    height: 150px;
+    background-position: center;
+}
+
+.uses-background1 {
+    background-image: url(../img/note-taking.jpg);
+}
+
+.uses-background2 {
+    background-image: url(../img/art.jpg);
+}
+
+.uses-background3 {
+    background-image: url(../img/drafting.jpg);
+}
+
+.uses-background4 {
+    background-image: url(../img/coloring.jpg);
+}
+
+.uses-details {
+    height: 150px;
+    text-align: left;
+    padding: 15px;
+}
+
+.test-content {
+    max-width: 700px;
+    min-height: 150px;
+    margin: 15px;
+}
+
+.test-text {
+    padding-left: 100px; 
+    text-align: left;
+}
+
+.avatar-img {
+    border-radius: 100%;
+    float: left;
+}
+
+.title-font {
+    font-size: 0.8em;
+    color: #999999;
+}
+
+footer {
+    min-height: 100px;
+    background-color: #391D18;
+    color: #EEEEEE;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.footer-copy {
+    padding-left: 50px;
+    display: inline;
+}
+
+.footer-icons a {
+    color: #999999;
+    text-decoration-line: none;
+    padding-right: 10px;
+}
+
+.footer-icons {
+    float: right;
+    padding-right: 100px;
+    font-size: 25px;
+}
+
+.footer-text a {
+    color: #AAAAAA;
+}
+
+.footer-text {
+    display: none;
+}
+
+@media (max-width: 991.98px) {
+    header {
+        height: auto;
+        background-image: linear-gradient(to bottom, #391D18, #814236);
+        color: white;
+    }
+
+    header .container {
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    header p {
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+    }
+
+    br {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .shop-cart {
+        display: block;
+        float: right;
+    }
+
+    .shop-cart i {
+        color: white;
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+    .feature-details {
+        min-height: 280px;
+    }
+
+    .uses-full-background .row {
+        padding-left: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .feature-details {
+        min-height: 150px;
+    }
+
+    .feature-details svg {
+        float: left;
+    }
+
+    .feature-details p, .feature-details h3{
+        text-align: left;
+        padding-left: 85px;
+    }
+
+    .footer-copy, .footer-icons, .footer-text {
+        text-align: left;
+        display: block;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+
+    .footer-text {
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+    }
+
+    .footer-icons {
+        float: none;
+    }
+
+    .footer-text a {
+        text-decoration-line: none;
+    }
+
+}
+
